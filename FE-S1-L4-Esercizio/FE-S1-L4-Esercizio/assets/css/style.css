@@ -1,0 +1,45 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+  width: 400px;
+  margin-inline: auto;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  /* .. per far cercare a VScode in altre cartelle  */
+  background-image: url("../img/sfondo.png");
+}
+/* HEADER */
+div > .epicode-logo {
+  width: 50%;
+  padding-inline: auto;
+}
+div {
+  display: block;
+  padding: 10px;
+  background-color: white;
+  border-color: 2px black solid;
+}
+
+.header-box {
+  padding: 20px;
+  background-color: rgb(64, 160, 173);
+  color: white;
+  text-align: center;
+  font-style: bold;
+}
+
+/* MAIN */
+main {
+  line-height: 1.4;
+  box-shadow: 4px 4px 8px #666, -4px -4px 8px 2px #333;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
