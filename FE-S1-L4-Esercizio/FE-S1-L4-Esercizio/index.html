@@ -10,7 +10,7 @@
     />
     <!-- ricordare ./ per mantenere il collegamento agli assets -->
     <link rel="stylesheet" href="./assets/css/font-awesome.css" />
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,11 +22,11 @@
       <div class="header-box">
         <img class="epicode-logo" src="./assets/img/logo.svg" />
         <h2>EPICODE - IL BLOG DEI DEVELOPERS</h2>
-        <br>
+        <br />
         <ul>
-          <li>HOME</li>
-          <li>ARTICOLI</li>
-          <li>LAVORA CON NOI</li>
+          <li>⇒ HOME ⇐</li>
+          <li>⇒ ARTICOLI ⇐</li>
+          <li>⇒ LAVORA CON NOI ⇐</li>
         </ul>
       </div>
     </header>
@@ -42,20 +42,24 @@
             <br />
             Identificando le <span class="parti-comuni">parti comuni</span> da applicare a tutte le pagine
           </p>
-          <p>La varie aree saranno quindi suddivise 
-    
-            <li>Contenuti di intestazione del tag <span class="text-box"><code>header</code></span></li>
-            <li>Contenuti centrali variabili del tag <span class="text-box"><code>main</code></span> (corpo principale)</li>
-            <li>contenuti di fine pagina, da inserire nel <span class="text-box"><code>footer</code></span></li>
+          <p>La varie aree saranno quindi suddivise</p>
+          <ul>
+            <li>
+              Contenuti di intestazione del tag <span class="text-box"><code>header</code></span>
+            </li>
+            <li>
+              Contenuti centrali variabili del tag <span class="text-box"><code>main</code></span> (corpo principale)
+            </li>
+            <li>
+              contenuti di fine pagina, da inserire nel <span class="text-box"><code>footer</code></span>
+            </li>
           </ul>
         </div>
       </section>
       <section class="formattazione">
         <div>
           <p>
-            Formazione del codice
-          
-            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
+            Formazione del codice Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
             <span>selezionare con CSS.</span> Perciò i passi saranno:
           </p>
           <ol>
@@ -113,26 +117,27 @@
         </div>
         <video controls></video>
       </section>
-      <section>
-        <div class="news-box">
-          <form>
-            <input class="email-form" type="email" placeholder="Inserisci l'email" />
-            <button type="submit">Iscriviti!</button>
-          </form>
-        </div>
+      <section class="news-box">
+        <h2 class="news-title">novità</h2>
+        <p class="news-message">
+          Vuoi rimanere aggiornato sua latre novità dei blog? iscrivity alla nostra newsletter:
+        </p>
+        <form class="email-form">
+          <input class="form-imput" type="email" placeholder="Inserisci l'email" />
+          <button type="submit">Iscriviti!</button>
+        </form>
       </section>
       <section>
         <h2>ARTICOLI CORRELATI</h2>
         <div class="correlated-1">
           <h3><a href="">Validare il codice HTML</a></h3>
-        <p>Categoria: develop</p>
-        <p class="date">Data:18-9-2020</p>
-      </div>
+          <p>Categoria: develop</p>
+          <p class="date">Data:18-9-2020</p>
+        </div>
         <div class="correlated-2">
           <h3><a href="">Correggere la sintassi</a></h3>
           <p>Categoria: develop</p>
           <p class="date">Data:16-9-2020</p>
-
         </div>
         <div class="correlated-3">
           <h3>Meno Kb nella pagina</h3>
@@ -144,8 +149,8 @@
     <footer class="footer-box">
       <h4>Blog Epicode &copy;2021</h4>
       <p>
-        Testata online di MArio Rossi, registrato con prot. n.213/2018 - via Luigi Enaudi 2 - Milano.
-        P.IVA 00112233. <a href="">info@epicode.school</a>
+        Testata online di MArio Rossi, registrato con prot. n.213/2018 - via Luigi Enaudi 2 - Milano. P.IVA 00112233.
+        <a href="">info@epicode.school</a>
       </p>
     </footer>
   </body>
